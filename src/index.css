@@ -32,16 +32,16 @@ body {
 
 /* upload form styles */
 
-form{
+form {
   margin: 30px auto 10px;
   text-align: center;
 }
-label input{
+label input {
   height: 0;
   width: 0;
   opacity: 0;
 }
-label{
+label {
   display: block;
   width: 30px;
   height: 30px;
@@ -51,18 +51,18 @@ label{
   line-height: 30px;
   color: var(--primary);
   font-weight: bold;
-  font-size: 24px;
+  font-size: 25px;
 }
-label:hover{
+label:hover {
   background: var(--primary);
   color: white;
 }
 
-.output{
+.output {
   height: 60px;
   font-size: 0.8rem;
 }
-.error{
+.error {
   color: var(--error);
 }
 /* progress bar styles */
@@ -72,15 +72,14 @@ label:hover{
   margin-top: 20px;
 }
 
-
 /* image grid styles */
-.img-grid{
+.img-grid {
   margin: 20px auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 40px;
 }
-.img-wrap{
+.img-wrap {
   overflow: hidden;
   height: 0;
   padding: 50% 0;
@@ -88,7 +87,7 @@ label:hover{
   position: relative;
   opacity: 0.8;
 }
-.img-wrap img{
+.img-wrap img {
   min-width: 100%;
   min-height: 100%;
   max-width: 150%;
